@@ -120,8 +120,8 @@
         <source-file src="libs/apple-darwin/lib/libopus.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
         <source-file src="libs/apple-darwin/lib/libortp.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
         <source-file src="libs/apple-darwin/lib/libpolarssl.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
-        <source-file src="libs/apple-darwin/lib/libsppex.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
-        <source-file src="libs/apple-darwin/lib/libsppexdsp.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
+        <source-file src="libs/apple-darwin/lib/libspeex.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
+        <source-file src="libs/apple-darwin/lib/libspeexdsp.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
         <source-file src="libs/apple-darwin/lib/libsrtp.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
         <source-file src="libs/apple-darwin/lib/libswresample.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
         <source-file src="libs/apple-darwin/lib/libswscale.a" target-dir="liblinphone-sdk/apple-darwin/lib" />
