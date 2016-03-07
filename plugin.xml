@@ -79,7 +79,7 @@
         <source-file src="libs/apple-darwin/include/belle-sip/http-provider.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
         <source-file src="libs/apple-darwin/include/belle-sip/list.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
         <source-file src="libs/apple-darwin/include/belle-sip/listener.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
-        <source-file src="libs/apple-darwin/include/belle-sip/listingpoint.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
+        <source-file src="libs/apple-darwin/include/belle-sip/listeningpoint.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
         <source-file src="libs/apple-darwin/include/belle-sip/mainloop.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
         <source-file src="libs/apple-darwin/include/belle-sip/message.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
         <source-file src="libs/apple-darwin/include/belle-sip/object.h" target-dir="liblinphone-sdk/apple-darwin/include/belle-sip" />
