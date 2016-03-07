@@ -150,7 +150,7 @@
         <source-file src="libs/apple-darwin/share/sounds/linphone/rings/bigben.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
         <source-file src="libs/apple-darwin/share/sounds/linphone/rings/oldphone.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
         <source-file src="libs/apple-darwin/share/sounds/linphone/rings/oldphone-mono.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
-        <source-file src="libs/apple-darwin/share/sounds/linphone/rings/oldphone-mono-30s.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
+        <source-file src="libs/apple-darwin/share/sounds/linphone/rings/oldphone-mono-30s.caf" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
         <source-file src="libs/apple-darwin/share/sounds/linphone/rings/orig.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
         <source-file src="libs/apple-darwin/share/sounds/linphone/rings/rock.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
         <source-file src="libs/apple-darwin/share/sounds/linphone/rings/sweet.wav" target-dir="liblinphone-sdk/apple-darwin/share/sounds/linphone/rings" />
