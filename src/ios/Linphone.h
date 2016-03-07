@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 #import <AudioToolbox/AudioToolbox.h>
-#include "linphone/linphonecore.h"
+#include "liblinphone-sdk/apple-darwin/include/include/linphone/linphonecore.h"
 
 @interface Linphone : CDVPlugin{
     LinphoneCore *lc;
