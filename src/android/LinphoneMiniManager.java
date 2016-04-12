@@ -268,8 +268,7 @@ public class LinphoneMiniManager implements LinphoneCoreListener {
 	}
 
 	@Override
-	public void callState(LinphoneCore lc, LinphoneCall call, State cstate,
-			String message) {
+	public void callState(LinphoneCore lc, LinphoneCall call, State cstate, String message) {
 		Log.d("Call state: " + cstate + "(" + message + ")");
 	}
 
@@ -291,14 +290,12 @@ public class LinphoneMiniManager implements LinphoneCoreListener {
 	}
 
 	@Override
-	public void registrationState(LinphoneCore lc, LinphoneProxyConfig cfg,
-			RegistrationState cstate, String smessage) {
+	public void registrationState(LinphoneCore lc, LinphoneProxyConfig cfg, RegistrationState cstate, String smessage) {
 		Log.d("Registration state: " + cstate + "(" + smessage + ")");
 	}
 
 	@Override
-	public void newSubscriptionRequest(LinphoneCore lc, LinphoneFriend lf,
-			String url) {
+	public void newSubscriptionRequest(LinphoneCore lc, LinphoneFriend lf, String url) {
 
 	}
 
@@ -308,8 +305,7 @@ public class LinphoneMiniManager implements LinphoneCoreListener {
 	}
 
 	@Override
-	public void messageReceived(LinphoneCore lc, LinphoneChatRoom cr,
-			LinphoneChatMessage message) {
+	public void messageReceived(LinphoneCore lc, LinphoneChatRoom cr, LinphoneChatMessage message) {
 		Log.d("Message received from " + cr.getPeerAddress().asString() + " : " + message.getText() + "(" + message.getExternalBodyUrl() + ")");
 	}
 
@@ -320,12 +316,11 @@ public class LinphoneMiniManager implements LinphoneCoreListener {
 
 	@Override
 	public void dtmfReceived(LinphoneCore lc, LinphoneCall call, int dtmf) {
-
+		;
 	}
 
 	@Override
-	public void ecCalibrationStatus(LinphoneCore lc, EcCalibratorStatus status,
-			int delay_ms, Object data) {
+	public void ecCalibrationStatus(LinphoneCore lc, EcCalibratorStatus status, int delay_ms, Object data) {
 
 	}
 
@@ -340,44 +335,37 @@ public class LinphoneMiniManager implements LinphoneCoreListener {
 	}
 
 	@Override
-	public void notifyReceived(LinphoneCore lc, LinphoneCall call,
-			LinphoneAddress from, byte[] event) {
+	public void notifyReceived(LinphoneCore lc, LinphoneCall call, LinphoneAddress from, byte[] event) {
 
 	}
 
 	@Override
-	public void transferState(LinphoneCore lc, LinphoneCall call,
-			State new_call_state) {
+	public void transferState(LinphoneCore lc, LinphoneCall call, State new_call_state) {
 
 	}
 
 	@Override
-	public void infoReceived(LinphoneCore lc, LinphoneCall call,
-			LinphoneInfoMessage info) {
+	public void infoReceived(LinphoneCore lc, LinphoneCall call, LinphoneInfoMessage info) {
 
 	}
 
 	@Override
-	public void subscriptionStateChanged(LinphoneCore lc, LinphoneEvent ev,
-			SubscriptionState state) {
+	public void subscriptionStateChanged(LinphoneCore lc, LinphoneEvent ev, SubscriptionState state) {
 
 	}
 
 	@Override
-	public void notifyReceived(LinphoneCore lc, LinphoneEvent ev,
-			String eventName, LinphoneContent content) {
+	public void notifyReceived(LinphoneCore lc, LinphoneEvent ev, String eventName, LinphoneContent content) {
 		Log.d("Notify received: " + eventName + " -> " + content.getDataAsString());
 	}
 
 	@Override
-	public void publishStateChanged(LinphoneCore lc, LinphoneEvent ev,
-			PublishState state) {
+	public void publishStateChanged(LinphoneCore lc, LinphoneEvent ev, PublishState state) {
 
 	}
 
 	@Override
-	public void configuringStatus(LinphoneCore lc,
-			RemoteProvisioningState state, String message) {
+	public void configuringStatus(LinphoneCore lc, RemoteProvisioningState state, String message) {
 		Log.d("Configuration state: " + state + "(" + message + ")");
 	}
 
